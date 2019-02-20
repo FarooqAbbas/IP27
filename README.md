@@ -7,4 +7,7 @@ Heltec-Library https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/I
 http://www.iotsharing.com/2017/05/tcp-udp-ip-with-esp32.html  
 For WebSocket Library  
 * Go to Sketch > Include Library > Manage Library. Search for and install the websockets library by Markus Sattler 
+For Asynchronous Web Server  
+* https://github.com/me-no-dev/ESPAsyncWebServer  
+* https://github.com/me-no-dev/AsyncTCP
 
