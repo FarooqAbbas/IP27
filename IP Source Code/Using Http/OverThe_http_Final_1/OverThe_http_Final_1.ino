@@ -9,13 +9,13 @@
 #include "WiFi.h"
 #include "ESPAsyncWebServer.h"
  
-const char* ssid = "your ssid";
-const char* password =  "your password";
+const char* ssid = "Logistik-Labor";
+const char* password =  "Logistik";
 const char* PARAM_MESSAGE = "message";
   
 AsyncWebServer server(80);
-//U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 15, /* data=*/ 4, /* reset=*/ 16);  //for esp32
-U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 22, /* data=*/ 21);  // for groove oled
+U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 15, /* data=*/ 4, /* reset=*/ 16);  //for esp32
+//U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ 22, /* data=*/ 21);  // for groove oled
  
 void setup(){
   Serial.begin(115200); 
